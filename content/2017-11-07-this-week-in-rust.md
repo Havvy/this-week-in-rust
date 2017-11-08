@@ -160,7 +160,7 @@ it mentioned here. Email the [Rust Community Team][community] for access.
 # Quote of the Week
 
 > durka42: IMO the name "dangling" is scary enough :)
-> Havvy gives durka42 a ptr::dangling::<Candy>().
+> Havvy gives durka42 a ptr::dangling::&lt;Candy&gt;().
 > durka42 declines to unwrap() it
 
 — [durka42 and Havvy](https://botbot.me/mozilla/rust-internals/2017-11-02/?msg=93047552&page=2) discussing [PR #45527](https://github.com/rust-lang/rust/pull/45527).
